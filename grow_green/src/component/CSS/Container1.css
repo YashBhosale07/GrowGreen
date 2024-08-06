@@ -1,0 +1,57 @@
+.container1{
+height: 400px;
+width: 100%;
+border: 0.1px solid;
+}
+.container1::before {
+    content: '';
+    background: url('../img/greenbg1.jpeg') 
+        no-repeat center center/cover;
+    position: absolute;
+    opacity: 10;
+    margin-top: 0px;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+}
+
+.container1 h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+.container1 h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    
+}
+.container1 .btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.container1 .btn button{
+
+    background-color: red;
+    margin: 10px 15px;
+    padding: 5px 8px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+   font-weight: bold;
+   font-size: 15px;
+}
+.container1 .btn button a{
+    text-decoration: none;
+    color: black;
+}
+.container1 .btn button:hover{
+    background-color: yellow;
+    
+}

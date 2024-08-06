@@ -1,0 +1,94 @@
+.contact{
+ 
+   
+  
+ 
+    width: inherit;
+    height: inherit;
+   
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact h1 {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact .formc h3 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact .containerc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .formc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: white;
+    margin-right: 30px;
+
+}
+.contact .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: white;
+    margin-left:  30px;
+
+}
+.contact .info .infoitem{
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact .formc input,
+textarea {
+    padding: 7px;
+    width: 70%;
+    margin: 10px;
+}
+
+.contact .formc .submit {
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    width: 30%;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.contact .formc .submit:hover {
+    background-color: white;
+}
+.map{
+
+    height: 420px;
+    width: 1050px;
+   
+    margin: 30px auto;
+    margin-bottom: 100px;
+}

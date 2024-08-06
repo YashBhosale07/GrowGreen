@@ -1,0 +1,36 @@
+.container3{
+    height: inherit;
+    width: 100%;
+    border: 2px solid white;
+   
+}
+.container3 .Heading{
+    text-align: center;
+    margin-top: 7px;
+    color: rgb(52, 244, 52);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container3 .imgcontainer{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container3 .imgcontainer .imgcard{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 15px 20px;
+}
+.container3 .imgcontainer .imgcard img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    cursor: pointer;
+}
+.container3 .imgcontainer .imgcard img:hover{
+    opacity: 0.8;
+}

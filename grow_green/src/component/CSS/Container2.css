@@ -1,0 +1,42 @@
+.mission{
+    height: 450px;
+    width: 100%;
+    border: 2px solid black;
+}
+.mission .heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+.mission .cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mission .card1{
+
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 30px 70px;
+    border-radius: 10px;
+}
+.mission .card1 h4{
+
+    text-align: center;
+    margin-top: 5px;
+}
+.mission .card1 .imgcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    
+}
+.mission .card1 .imgcontainer img{
+ height: 150px;
+ width: 150px;
+}

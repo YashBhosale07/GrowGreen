@@ -1,0 +1,35 @@
+.container4{
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container4 .counter{
+    margin: 100px;
+}
+.container4 .counter h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.container4 .counter p{
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+/* .container4::before {
+    content: '';
+    background: url('../img/greenbg1.jpeg') 
+        no-repeat center center/cover;
+    position: absolute;
+    opacity: 10;
+    margin-top: 0px;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+} */
